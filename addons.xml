@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+    <addon id="repository.should"
+           name="Should Repository"
+           version="1.0.0"
+           provider-name="Should">
+        <extension point="xbmc.addon.repository"
+                   name="Should Repository">
+            <dir minversion="18.0">
+                <info compressed="false">https://raw.githubusercontent.com/ashtonhardy555-stack/Should/main/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/ashtonhardy555-stack/Should/main/addons.xml.md5</checksum>
+                <resources id="resource.images.studios.white" type="image"/>
+            </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <summary>Should Repository</summary>
+            <description>A repository for video addons</description>
+            <disclaimer/>
+        </extension>
+    </addon>
     <addon id="plugin.video.redboxselector"
            name="RedBox Selector"
            version="1.1.1"
