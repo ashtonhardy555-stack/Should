@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <repo>
-    <extension point="xbmc.addon.repository" name="Search Repository">
+    <extension point="xbmc.addon.repository" name="Should Repository">
         <dir minversion="18.0">
-            <info compressed="false">https://raw.githubusercontent.com/ashtonhardy555-stack/search/main/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/ashtonhardy555-stack/search/main/addons.xml.md5</checksum>
+            <info compressed="false">https://raw.githubusercontent.com/ashtonhardy555-stack/Should/main/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/ashtonhardy555-stack/Should/main/addons.xml.md5</checksum>
             <resources id="resource.images.studios.white" type="image"/>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary>Search Repository</summary>
-        <description>A repository for search addons</description>
+        <summary>Should Repository</summary>
+        <description>A repository for video addons</description>
         <disclaimer/>
     </extension>
 </repo>
